@@ -41,13 +41,13 @@ class Stack:
         self.items.append(item)
 
     def pop(self):
-        """Removes the first item from the stack.
+        """Removes the last element from the stack.
 
         Args:
             self: this stack.
 
         Returns:
-            this stack with the first element removed.
+            this stack with the last element removed.
 
         """
         return self.items.pop()

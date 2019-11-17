@@ -4,7 +4,5 @@
 # ENQUEQUE(Q,8), and DEQUEQUE(Q) on an initially empty queue Q stored in
 # array Q[1...6].
 
-from bin import data_structures
-
 if __name__ == "__main__":
     raise NotImplementedError()

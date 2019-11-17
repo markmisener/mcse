@@ -4,7 +4,5 @@
 # stacks together is n. The PUSH and POP operations should run in
 # O(1) time.
 
-from bin import data_structures
-
 if __name__ == "__main__":
     raise NotImplementedError()

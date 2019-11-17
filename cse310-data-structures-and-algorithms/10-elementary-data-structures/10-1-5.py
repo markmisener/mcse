@@ -1,4 +1,4 @@
-"""Exercise 10.1-5"""
+"""Exercise 10.1-5."""
 # Whereas a stack allows insertion and deletion of elements at only one end,
 # and a queue allows insertion at one end and deletion at the other end,
 # a deque (double-ended queue) alloas insertion and deletion at both ends.

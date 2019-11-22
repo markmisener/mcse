@@ -1,5 +1,4 @@
 """Python implementation of a double-ended queue, allowing insertion and deletion at both ends."""
-
 from Queue import Queue
 
 
@@ -14,6 +13,7 @@ class Deque(Queue):
         self.items = self.set_items()
 
     def set_items(self):
+        """Set the class attribute items, using the array attribute."""
         self.items = [x for x in self.array if x is not None]
 
     def show(self):

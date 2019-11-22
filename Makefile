@@ -10,5 +10,4 @@ install: venv
 	pip install -r requirements.txt; \
 
 pre-commit: install
-	source mcse-env/bin/activate; \
 	pre-commit run --all-files

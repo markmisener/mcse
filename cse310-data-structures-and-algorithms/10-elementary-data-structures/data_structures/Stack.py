@@ -1,4 +1,4 @@
-"""Python implementations of non-native data structures."""
+"""Python implementation of a Stack."""
 
 
 class Stack:
